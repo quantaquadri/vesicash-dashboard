@@ -12492,7 +12492,8 @@ textarea.c-input {
 
 .c-summary {
     position: relative;
-    padding: 0 0 1.875rem 1.875rem
+    padding: 0 0 1.875rem 1.875rem;
+    text-align: center;
 }
 
 .c-summary.has-divider:after {
@@ -12504,7 +12505,7 @@ textarea.c-input {
     height: 100%;
     content: "";
     background: #e6eaee;
-    background: linear-gradient(0deg, #e6eaee, #fff)
+    /* background: linear-gradient(0deg, #e6eaee, #fff) */
 }
 
 @media (max-width:768px) {
@@ -12518,18 +12519,20 @@ textarea.c-input {
 
 .c-summary__title {
     margin-bottom: .9375rem;
-    color: #7f8fa4;
-    font-size: .875rem;
-    font-weight: 500;
-    text-transform: uppercase
+    margin-top: 1.5rem;
+    color: #777;
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .c-summary__number {
     display: inline-block;
     position: relative;
     margin: 0;
-    font-size: 1.875rem;
-    font-weight: 400
+    font-size: 2.3rem;
+    font-weight: 600
 }
 
 .c-summary__status {
@@ -12548,7 +12551,7 @@ textarea.c-input {
 }
 
 .c-summary__meta {
-    margin: 0;
+    margin-top: 15px;
     color: #7f8fa4;
     font-size: .75rem;
     font-weight: 400;
