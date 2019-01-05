@@ -91,7 +91,7 @@
                     <span class="c-sidebar-toggle__bar"></span>
                 </button><!-- // .c-sidebar-toggle -->
 
-                <h2 class="c-navbar__title u-mr-auto">Basic Invoice</h2>
+                <h2 class="c-navbar__title u-mr-auto">Milestone Invoice</h2>
                 
                 
                 <div class="c-dropdown dropdown u-mr-medium u-ml-small u-hidden-down@mobile">
@@ -178,7 +178,7 @@
 
                                     <div class="col-lg-4">
                                         <div class="c-field u-mb-small">
-                                            <label class="c-field__label spn" for="firstName">Receiver's Name</label> 
+                                            <label class="c-field__label" for="firstName">Receiver's Name</label> 
                                             <input class="c-input" type="text" id="" placeholder=""> 
                                         </div>
                                     </div>
@@ -205,69 +205,100 @@
 
                             <div class="col-md-12">
 
-                                <p style="color: #3bb75e; font-size: 16px; font-weight: 600; margin-bottom: 12px;">Invoice Information:</p> <br>
+                                <p style="color: #3bb75e; font-size: 16px; font-weight: 600; margin-bottom: 12px;">Invoice Milestone(1) Information:</p> <br>
 
                                 <div class="row">
 
                                     <div class="col-lg-4">
                                         <div class="c-field u-mb-small">
-                                            <label class="c-field__label" for="firstName">Item</label> 
+                                            <label class="c-field__label" for="firstName">Task</label> 
                                             <input class="c-input" type="text" id="" placeholder=""> 
                                         </div>
                                     </div>
 
                                     <div class="col-lg-4">
                                         <div class="c-field u-mb-small">
-                                            <label class="c-field__label" for="firstName">Item Description</label> 
+                                            <label class="c-field__label" for="firstName">Task Description</label> 
+                                            <input class="c-input" type="text" id="" placeholder=""> 
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="c-field u-mb-small">
+                                            <label class="c-field__label" for="firstName">Attached Price</label> 
                                             <input class="c-input" type="text" id="" placeholder=""> 
                                         </div><br><br>
                                     </div>
 
                                     <div class="col-lg-4">
                                         <div class="c-field u-mb-small">
-                                            <label class="c-field__label" for="firstName">Price</label> 
-                                            <input class="c-input" type="text" id="" placeholder=""> 
+                                            <label class="c-field__label" for="firstName">Task Due Date</label> 
+                                            <input class="c-input" data-toggle="datepicker" id="input9" type="text" placeholder="tap to open calendar">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-4">
                                         <div class="c-field u-mb-small">
-                                            <label class="c-field__label" for="firstName">Quantity</label> 
-                                            <input class="c-input" type="text" id="" placeholder=""> 
+                                            <label class="c-field__label" for="firstName">Inspection Period Due Date</label> 
+                                            <input class="c-input" data-toggle="datepicker" id="input9" type="text" placeholder="tap to open calendar">
                                         </div>
-                                    </div>
-
-                                    <div class="col-lg-4">
-                                        <div class="c-field u-mb-small">
-                                            <label class="c-field__label" for="firstName">Delivery Description</label> 
-                                            <input class="c-input" type="text" id="" placeholder=""> 
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4">
-                                        <div class="c-field u-mb-small">
-                                            
-                                            <label class="c-field__label" for="firstName">Upload Item Image</label> 
-                                            
-                                            <form action="" class="dropzone dz-clickable" id="custom-dropzone" style="height: 180px;">
-                                            
-                                                <div class="dz-message" data-dz-message="">
-                                                    <i class="dz-icon fa fa-cloud-upload"></i>
-                                                    <span>Drag a file here or browse for a file to upload.</span>
-                                                </div>
-                
-                                                
-                                            </form>
-                                        
-                                        </div>
-                                    
                                     </div>
                             
                                 </div>
                             
                             </div>
 
+
                             <br>
+
+                            <div class="col-md-12">
+
+                                <p style="color: #3bb75e; font-size: 16px; font-weight: 600; margin-bottom: 12px;">Invoice Milestone (2) Information:</p> <br>
+
+                                <div class="row">
+
+                                    <div class="col-lg-4">
+                                        <div class="c-field u-mb-small">
+                                            <label class="c-field__label" for="firstName">Task</label> 
+                                            <input class="c-input" type="text" id="" placeholder=""> 
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="c-field u-mb-small">
+                                            <label class="c-field__label" for="firstName">Task Description</label> 
+                                            <input class="c-input" type="text" id="" placeholder=""> 
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="c-field u-mb-small">
+                                            <label class="c-field__label" for="firstName">Attached Price</label> 
+                                            <input class="c-input" type="text" id="" placeholder=""> 
+                                        </div><br><br>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="c-field u-mb-small">
+                                            <label class="c-field__label" for="firstName">Task Due Date</label> 
+                                            <input class="c-input" data-toggle="datepicker" id="input9" type="text" placeholder="Focus to open caleendar">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="c-field u-mb-small">
+                                            <label class="c-field__label" for="firstName">Inspection Period Due Date</label> 
+                                            <input class="c-input" data-toggle="datepicker" id="input9" type="text" placeholder="Focus to open caleendar">
+                                        </div>
+                                    </div>
+                            
+                                </div>
+                            
+                            </div>
+
+                            
+
+                            <br><br>    
 
                             <div class="col-md-12">
 
@@ -312,9 +343,7 @@
                             
                             </div>
 
-                            
-
-                            <div class="col-md-6" style="padding-top: 90px;">
+                            <div class="col-md-6" style="padding-top: 60px;">
                                 <div class="row">
                                     <div class="col u-mb-medium col-lg-4">
                                         <a class="c-btn c-btn--success c-btn--fullwidth" href="invoice.html">Submit Invoice</a>

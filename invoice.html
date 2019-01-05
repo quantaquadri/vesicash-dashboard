@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    
+<head>
+    
+    <meta charset="utf-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <title>Vesicash Dashboard</title>
+    
+    <meta name="description" content="Vesicash Dashboard">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" href="https://www.vesicash.com/frontend/img/vesicash.png">
+    <link rel="shortcut icon" href="https://www.vesicash.com/frontend/img/vesicash.png" type="image/x-icon">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+
+    <body class="o-page">
+
+
+        <div class="o-page__sidebar js-page-sidebar">
+
+            <div class="c-sidebar">
+            
+                <a class="c-sidebar__brand" href="#">
+                    <img class="c-sidebar__brand-img" src="img/vesi-logor.png" alt="Logo"> 
+                </a>
+                
+                <h4 class="c-sidebar__title">Dashboard</h4>
+            
+                <ul class="c-sidebar__list">
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="index.html">
+                            <i class="fa fa-home u-mr-xsmall"></i>Overview
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="payment.html">
+                            <i class="fa fa-tachometer u-mr-xsmall"></i>Payments 
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link is-active" href="invoices.html">
+                            <i class="fa fa-files-o u-mr-xsmall"></i>Invoices
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="#">
+                            <i class="fa fa-comments-o u-mr-xsmall"></i>Disputes
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="#">
+                            <i class="fa fa-street-view u-mr-xsmall"></i>Help Center
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="#">
+                            <i class="fa fa-cog u-mr-xsmall"></i>Settings
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <main class="o-page__content">
+            <header class="c-navbar u-mb-medium">
+                <button class="c-sidebar-toggle js-sidebar-toggle">
+                    <span class="c-sidebar-toggle__bar"></span>
+                    <span class="c-sidebar-toggle__bar"></span>
+                    <span class="c-sidebar-toggle__bar"></span>
+                </button>
+
+                <h2 class="c-navbar__title u-mr-auto"> Invoice Summary</h2>
+                <a href="new-invoice.html" class="c-btn c-btn--success u-mr-small">+ Create New Invoice</a>
+
+                <div class="c-dropdown dropdown">
+                    <a  class="c-avatar c-avatar--xsmall has-dropdown dropdown-toggle" href="#" id="dropdwonMenuAvatar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="c-avatar__img" src="img/avatar8-72.jpg" alt="User's Profile Picture">
+                    </a>
+
+                    <div class="c-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="dropdwonMenuAvatar">
+                        <a class="c-dropdown__item dropdown-item" href="#">Edit Profile</a>
+                        <a class="c-dropdown__item dropdown-item" href="#">View Activity</a>
+                        <a class="c-dropdown__item dropdown-item" href="#">Manage Roles</a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="container">
+
+                <div class="row u-mb-medium u-justify-center">
+                
+                    <div class="col-xl-10">
+                
+                        <div class="c-invoice">
+
+                            <div class="c-invoice__header">
+                
+                                <div class="c-invoice__brand">
+                                    <img class="c-invoice__brand-img" src="img/vesi-logo.png" alt="Dashboard's Logo"> 
+                                    <!-- <h1 class="c-invoice__brand-name">Vesicash Limited</h1> -->
+                                </div>
+
+                                <div class="c-invoice__title">
+                                    <!-- <h4>Invoice</h4> -->
+                                    <div class="c-invoice__date">22nd December, 2017</div>
+                                </div>
+                
+                            </div>
+                            
+                            <div class="c-invoice__details">
+                                <div class="c-invoice__company">
+                                    <span class="u-text-mute u-text-uppercase u-text-xsmall">From:</span>
+                                    <div class="c-invoice__company-name">
+                                        Vesicash Inc
+                                    </div>
+
+                                    <div class="c-invoice__company-address">
+                                        39 Timber Road,<br>
+                                        Los Angeles, CA 97446<br>
+                                        United States
+                                    </div>
+                                </div>
+
+                                <div class="c-invoice__company">
+                                    <span class="u-text-mute u-text-uppercase u-text-xsmall">To:</span>
+                                    <div class="c-invoice__company-name">
+                                        Client Inc
+                                    </div>
+
+                                    <div class="c-invoice__company-address">
+                                        248 Turkey Ave,<br>
+                                        Columbus, AL 31901<br>
+                                        United States
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="c-invoice__body">
+                               
+                                <!-- <div class="c-invoice__desc">
+                                    Invoice # <br> 
+                                    <span class="c-invoice__number">HSFB 342823</span>
+                                </div> -->
+                               
+                                <div class="c-invoice__table">
+
+                                    <table class="c-table">
+                                    
+                                        <thead class="c-table__head c-table__head--slim">
+                                    
+                                            <tr class="c-table__row">
+                                                <th class="c-table__celjl c-table__celjl--head">Item Description</th>
+                                                <th class="c-table__celjl c-table__celjl--head">Qty</th>
+                                                <th class="c-table__celjl c-table__celjl--head">Price</th>
+                                            </tr>
+                                    
+                                        </thead>
+                                    
+                                        <tbody>
+                                    
+                                            <tr class="c-table__row">
+                                                <td class="c-table__celjl">Website Design</td>
+                                                <td class="c-table__celjl">2</td>
+                                                <td class="c-table__celjl">&#8358;4,500.00</td>
+                                            </tr>
+                                           
+                                        </tbody>
+
+                                        <tfoot>
+                                    
+                                            <tr class="c-table__row">
+                                                <td class="c-table__celjl" colspan="2"><em>Vesicash's Charges</em></td>
+                                                <td class="c-table__celjl">&#8358;90.00</td>
+                                            </tr>
+
+                                             <tr class="c-table__row">
+                                                <td class="c-table__celjl" colspan="2"><strong>Total</strong></td>
+                                                <td class="c-table__celjl"><strong>&#8358;15,490.00</strong></td>
+                                            </tr>
+                                    
+                                        </tfoot>
+                                    
+                                    </table>
+
+                                    <div class="c-invoice__terms">
+                                        All amounts shown on this invoice are in Nigerian Naira.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="c-invoice__footer">
+
+                                <!-- <div class="c-invoice__footer-brand">
+                                    <img src="img/logo.png" alt="Dashboard Logo">
+                                    <span>Dashboard UI Kit</span>
+                                </div> -->
+
+                                <div class="c-invoice__footer-info">
+                                        <a class="c-btn c-btn--success c-btn--fullwidth" href="#">Confirm & Send</a>
+                                </div>
+                                
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </main>
+
+        <!-- Main javascsript -->
+        <script src="js/main.min3661.js?v=2.0"></script>
+
+       
+    </body>
+
+
+</html>

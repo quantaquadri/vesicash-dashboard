@@ -9360,9 +9360,10 @@ a.fc-more:hover {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin: 0 0 .3125rem;
-    color: #7f8fa4;
-    font-size: .875rem;
-    font-weight: 400
+    color: #777;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 .c-field__addon {
@@ -10460,7 +10461,8 @@ textarea.c-input {
     border-radius: 4px 4px 0 0;
     background-color: #fff;
     color: #3bb75e;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 600;
     text-align: left;
 }
 
@@ -10492,7 +10494,9 @@ textarea.c-input {
 
 .c-table__head--slim {
     padding: 0;
-    background-color: #fAFAFA
+    background-color: #fAFAFA;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .c-table__head--slim .c-table__cell {
@@ -10541,13 +10545,23 @@ textarea.c-input {
     vertical-align: middle
 }
 
+.c-table__celjl {
+    padding: 20px 0 20px 30px;
+    color: #354052;
+    font-size: .875rem;
+    font-weight: 500;
+    /* text-align: center; */
+    white-space: nowrap;
+    vertical-align: middle
+}
+
 .c-table__cell:last-child {
     padding-right: 1.875rem
 }
 
 .c-table__cell--head {
     color: #777;
-    font-size: .875rem;
+    font-size: .75rem;
     font-weight: 600
 }
 
@@ -12520,9 +12534,9 @@ textarea.c-input {
 .c-summary__title {
     margin-bottom: .9375rem;
     margin-top: 1.5rem;
-    color: #777;
+    color: #043b56;
     font-size: .75rem;
-    font-weight: 600;
+    font-weight: 800;
     text-transform: uppercase;
     text-align: center;
 }
@@ -13012,7 +13026,7 @@ textarea.c-input {
 }
 
 .c-invoice__brand-img {
-    max-width: 40px;
+    max-width: 150px;
     margin-bottom: .9375rem
 }
 
@@ -13029,7 +13043,9 @@ textarea.c-input {
 }
 
 .c-invoice__date {
-    color: #7f8fa4
+    color: #7f8fa4;
+    font-style: italic;
+    font-size: 14px;
 }
 
 .c-invoice__details {
@@ -13070,7 +13086,7 @@ textarea.c-input {
 .c-invoice__desc {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 250px;
-    flex: 0 1 250px;
+    /* flex: 0 1 250px; */
     font-size: 1.25rem
 }
 
@@ -14925,14 +14941,16 @@ label {
 }
 
 .spn{
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: 500;
     margin-right: 10px;
+    color: #777;
+    text-transform: uppercase;
 }
 
 .form-control {
     height: 30px;
-    width: 60%;
+    width: 70%;
     border-radius: .25rem;
     box-shadow: none;
     color: #495057;
