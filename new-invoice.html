@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    
+<head>
+    
+    <meta charset="utf-8">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <title>Vesicash Dashboard</title>
+    
+    <meta name="description" content="Vesicash Dashboard">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" href="">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+
+    <body class="o-page">
+
+
+        <div class="o-page__sidebar js-page-sidebar">
+
+            <div class="c-sidebar">
+            
+                <a class="c-sidebar__brand" href="#">
+                    <img class="c-sidebar__brand-img" src="img/vesi-logor.png" alt="Logo"> 
+                </a>
+                
+                <h4 class="c-sidebar__title">Dashboard</h4>
+            
+                <ul class="c-sidebar__list">
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="index.html">
+                            <i class="fa fa-home u-mr-xsmall"></i>Overview
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="payment.html">
+                            <i class="fa fa-tachometer u-mr-xsmall"></i>Payments 
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link is-active" href="invoices.html">
+                            <i class="fa fa-files-o u-mr-xsmall"></i>Invoices
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="#">
+                            <i class="fa fa-comments-o u-mr-xsmall"></i>Disputes
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="#">
+                            <i class="fa fa-street-view u-mr-xsmall"></i>Help Center
+                        </a>
+                    </li>
+
+                    <li class="c-sidebar__item">
+                        <a class="c-sidebar__link" href="#">
+                            <i class="fa fa-cog u-mr-xsmall"></i>Settings
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <main class="o-page__content">
+            <header class="c-navbar u-mb-medium">
+                <button class="c-sidebar-toggle u-mr-small">
+                    <span class="c-sidebar-toggle__bar"></span>
+                    <span class="c-sidebar-toggle__bar"></span>
+                    <span class="c-sidebar-toggle__bar"></span>
+                </button><!-- // .c-sidebar-toggle -->
+
+                <h2 class="c-navbar__title u-mr-auto">Create New Invoice</h2>
+                
+                
+                <div class="c-dropdown dropdown u-mr-medium u-ml-small u-hidden-down@mobile">
+                    <a class="c-notification dropdown-toggle" href="#" id="dropdownMenuAlerts" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="c-notification__icon">
+                            <i class="fa fa-bell-o"></i>
+                        </span>
+                        <span class="c-notification__number">3</span>
+                    </a>
+
+                    <div class="c-dropdown__menu c-dropdown__menu--large dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuAlerts">
+                        <a href="#" class="c-dropdown__item dropdown-item o-media">
+                            <span class="o-media__img u-mr-xsmall">
+                                <span class="c-avatar c-avatar--xsmall">
+                                    <span class="c-avatar__img u-bg-success u-flex u-justify-center u-align-items-center">
+                                        <i class="fa fa-check u-text-large u-color-white"></i>
+                                    </span>
+                                </span>
+                                
+                            </span>
+                            <div class="o-media__body">
+                                <h6 class="u-mb-zero">Completed a task</h6>
+                                <p class="u-text-mute">You have recieved a mention on twitter, check it out!</p>
+                            </div>
+                        </a>
+
+                        <a href="#" class="c-dropdown__item dropdown-item o-media">
+                            <span class="o-media__img u-mr-xsmall">
+                                <span class="c-avatar c-avatar--xsmall">
+                                    <span class="c-avatar__img u-bg-fancy u-flex u-justify-center u-align-items-center">
+                                        <i class="fa fa-calendar u-text-large u-color-white"></i>
+                                    </span>
+                                </span>
+                                
+                            </span>
+                            <div class="o-media__body">
+                                <h6 class="u-mb-zero">Company meetup</h6>
+                                <p class="u-text-mute">You have recieved a mention on twitter, check it out!</p>
+                            </div>
+                        </a>
+                        <a href="#" class="c-dropdown__item dropdown-item o-media">
+                            <span class="o-media__img u-mr-xsmall">
+                                <span class="c-avatar c-avatar--xsmall">
+                                    <span class="c-avatar__img u-bg-primary u-flex u-justify-center u-align-items-center">
+                                        <i class="fa fa-info u-text-large u-color-white"></i>
+                                    </span>
+                                </span>
+                                
+                            </span>
+                            <div class="o-media__body">
+                                <h6 class="u-mb-zero">Someone mentioned you</h6>
+                                <p class="u-text-mute">You have recieved a mention on twitter, check it out!</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="c-dropdown dropdown">
+                    <a  class="c-avatar c-avatar--xsmall has-dropdown dropdown-toggle" href="#" id="dropdwonMenuAvatar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="c-avatar__img" src="img/avatar-72.jpg" alt="User's Profile Picture">
+                    </a>
+
+                    <div class="c-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="dropdwonMenuAvatar">
+                        <a class="c-dropdown__item dropdown-item" href="#">Edit Profile</a>
+                        <a class="c-dropdown__item dropdown-item" href="#">View Activity</a>
+                        <a class="c-dropdown__item dropdown-item" href="#">Manage Roles</a>
+                    </div>
+                </div>
+            </header>
+
+            <div class="container-fluid">
+
+                <div class="row">
+                
+                    <div class="col-12">
+                
+                        <div class="c-card u-p-medium">
+                            
+                            <div class="row u-justify-center">
+                            
+                                <div class="col-md-7">
+                            
+                                    <div class=" u-text-center">
+                            
+                                        <h4 class="u-mb-xsmall">Small Transaction? Big Transaction? We Got You.</h4>
+                            
+                                        <p class="u-text-mute u-mb-large">You can set up any of the invoice types based on the kind of transaction you want to carry out with the other party.</p>
+                            
+                                    </div>
+                            
+                                </div>
+                            
+                            </div>
+
+                            <br>
+
+                            <div class="row">
+
+                                <div class="col-md-2"></div>
+                              
+                                <div class="col-md-3">
+                                  
+                                    <article class="c-plan">
+                                        <img class="c-plan__img" src="img/price-icon.svg" alt="Pricing Icon">
+                                        
+                                        <!-- <h5 class="c-plan__title">Basic Invoice</h5> -->
+
+                                        <h4 class="c-plan__price">
+                                        Basic <br>Invoice</h4>
+
+                                        <!-- <h5 class="c-plan__note">max. 1 user</h5> -->
+
+                                        <span class="c-plan__divider"></span>
+
+                                        <ul>
+                                            <li class="c-plan__feature">
+                                                <span>1 or more</span> Items
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <span>Unlimited</span> Messages
+                                            </li>
+                                        </ul>
+
+                                        <a href="basic-invoice.html" class="c-btn c-btn--success u-mt-medium">Select This</a>
+                                    </article><!-- // .c-plan -->
+                                </div>
+
+
+                                <div class="col-md-2"></div>
+
+                                
+                                <div class="col-md-3">
+
+                                    <article class="c-plan">
+                                        <img class="c-plan__img" src="img/price-icon2.svg" alt="Pricing Icon">
+                                        
+                                        <h4 class="c-plan__price">
+                                                Milestone Invoice</h4>
+        
+
+                                        <span class="c-plan__divider"></span>
+
+                                        <ul>
+                                            <li class="c-plan__feature">
+                                                <span>1 or more</span> Items
+                                            </li>
+                                            <li class="c-plan__feature">
+                                                <strong>Unlimited</strong> Messages
+                                            </li>
+                                        </ul>
+
+                                        <a href="#" class="c-btn c-btn--warning u-mt-medium">Select</a>
+                                    
+                                    </article>
+
+                                </div>
+
+                                <div class="col-md-2"></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </main>
+        
+        <!-- Main javascsript -->
+        <script src="js/main.min3661.js?v=2.0"></script>
+
+    </body>
+
+</html>
